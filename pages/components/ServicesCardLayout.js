@@ -2,12 +2,12 @@ import ServicesCard from './ServicesCard';
 
 const ServicesCardLayout = () => {
   const cards = [
-    { heading: 'Personalized Matching', paragraph: 'Our unique matching system lets you find just the tour you want for your next holiday.' },
-    { heading: 'Wide Variety of Tours', paragraph: 'We offer a wide variety of personally picked tours with destinations all over the globe.' },
-    { heading: 'Highly Qualified Service', paragraph: 'Our tour managers are qualified, skilled, and friendly to bring you the best service..' },
-    { heading: '24/7 Support', paragraph: 'You can always get professional support from our staff 24/7 and ask any question you have.' },
-    { heading: 'Handpicked Hotels', paragraph: 'Our team offers only the best selection of affordable and luxury hotels to our clients..' },
-    { heading: 'Best Price Guarantee', paragraph: 'If you find tours that are cheaper than ours, we will compensate the difference.' },
+    { heading: 'Pro Guides', paragraph: 'Experienced tour guides making your trips more insightful.' },
+    { heading: 'Best Deals', paragraph: 'Unbeatable prices on international and domestic tours.' },
+    { heading: 'Tailored Trips', paragraph: 'Handpicked itineraries, customized to your preferences.' },
+    { heading: '24/7 Support', paragraph: 'Our team is always available to attend to your needs.' },
+    { heading: 'Premium Stays', paragraph: 'High-quality accommodations for a restful experience.' },
+    { heading: 'Thrilling Activities', paragraph: 'Experience unique local attractions and thrilling adventures.' },
   ];
 
   return (

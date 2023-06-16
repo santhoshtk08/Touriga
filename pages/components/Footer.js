@@ -21,11 +21,14 @@ const Footer = () => {
         </Link>
       </div>
       <div className="flex justify-center mt-4">
-        <Link href="tel:+91 9524185491" className="text-gray-400">Contact: +91 9524185491</Link>
+        <Link href="tel:+91 9524185491" className="text-gray-400 font-fontRegular">Contact: +91 9524185491</Link>
+      </div>
+      <div>
+        <h1 className='flex justify-center font-fontRegular'>© 2023 Touriga. All rights reserved.</h1>
       </div>
 
       <div className="flex justify-center mt-4"> 
-        <button className="bg-primary text-black px-4 py-2 rounded-md ml-4  border-emerald-500 hover:bg-orange-400 focus:bg-orange-400" onClick={openWhatsAppChat}>
+        <button className="bg-primary text-black px-4 py-2 rounded-md ml-4  border-emerald-500 hover:bg-orange-400 focus:bg-orange-400 font-fontRegular" onClick={openWhatsAppChat}>
           Enquire Now
         </button>
       </div>
