@@ -9,20 +9,20 @@ function Navbar() {
     window.open(`https://wa.me/${phoneNumber}`, '_blank');
   };
   return (
-    <nav className="flex-col sm:flex-row flex items-center justify-between bg-white">
+    <nav className="flex-col sm:flex-row flex items-center justify-between bg-background h-20 mx-4">
       <div className="flex items-center">
-        <Link href="/" className="">
+        {/* <Link href="/" className="">
             <Image src="/tourigaLogo.png" alt="Brand Logo" className='h-20' width={200} height={1000} />
-        </Link>
+        </Link> */}
       </div>
       <div className="flex items-center" >
       <div className="flex items-center space-x-4 hover:bg-primary rounded-sm h-10">
-        <Link href="/" className="text-black mx-4">
+        <Link href="/" className="text-black mx-4 font-fontRegular">
           Home
         </Link>
       </div>
       <div className="flex items-center space-x-4 hover:bg-primary rounded-sm h-10">
-          <Link href="/about/page" className="text-black mx-4">
+          <Link href="/about/page" className="text-black mx-4 font-fontRegular">
           Packages
         </Link>
       </div>
@@ -35,7 +35,7 @@ function Navbar() {
         </Link>
       </div>
         
-        <button className="bg-primary text-black px-4 py-2 rounded-md ml-4  border-emerald-500 hover:bg-orange-400 focus:bg-orange-400" onClick={openWhatsAppChat}>
+        <button className="bg-primary text-black px-4 py-2 rounded-md ml-4  border-emerald-500 hover:bg-orange-400 focus:bg-orange-400 font-fontRegular" onClick={openWhatsAppChat}>
           Enquire Now
         </button>
       </div>
