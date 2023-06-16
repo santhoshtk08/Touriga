@@ -6,7 +6,7 @@ import CarouselSlider from './components/CarouselSlider';
 
 import ServicesCardLayout from './components/ServicesCardLayout'
 import Navbar from './components/Navbar';
-import TourCard from './components/TourCard'
+import TourCardLayout from './components/TourCardLayout'
 
 
 
@@ -29,21 +29,9 @@ export default function Home() {
     <h1 className='mx-6 text-2xl font-semibold'>OUR SERVICES</h1>
       <ServicesCardLayout />
     </div>
+    
     <div>
-      <TourCard 
-        imageSrc="/bali.png"
-        heading="Bali Tour"
-        imageDescription="Bali"
-        paragraph="Lorem"
-      />
-    </div>
-    <div>
-      <TourCard 
-        imageSrc="/Kulu-Manali.png"
-        heading="Kulu Manali Tour"
-        imageDescription="Kulu Manali"
-        paragraph="Lorem"
-      />
+      <TourCardLayout />
     </div>
   </div>
   )
