@@ -1,3 +1,4 @@
+
 const ServicesCard = ({ heading, paragraph }) => {
   return (
     <div className="p-6 shadow-md rounded-lg">
