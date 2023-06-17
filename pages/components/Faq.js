@@ -1,7 +1,7 @@
 
 const Faq = () => {
   return (
-    <div className="container mx-4 py-8 ">
+    <div className="mx-4 py-8 ">
       <h2 className="text-4xl font-bold mb-4 font-headingFont">Frequently Asked Questions</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 rounded-md">
         <div className="p-4 rounded  font-fontRegular bg-cardColor">

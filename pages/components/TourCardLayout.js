@@ -18,7 +18,7 @@ const CardContainer = () => {
       id: 3,
       image: '/Andaman.png',
       heading: 'Andaman Island',
-      description: 'Card 3 Description',
+      description: 'Day 1 : Port Blair – City Tour Day 2: Port Blair - Swaraj Dweep Island (Havelock) - Radhanagar Beach: Day 3 : Swaraj Dweep (Havelock Island) – Shaheed Dweep (Neil Island) Day 4 : Shaheed Dweep (Neil Island) - Port Blair Day 5 : Port Blair – Airport Dropping ',
     },
   ];
 

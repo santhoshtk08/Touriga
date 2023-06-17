@@ -22,7 +22,7 @@ function Navbar() {
         </Link>
       </div>
       <div className="flex items-center space-x-4 hover:bg-primary rounded-sm h-10">
-          <Link href="/about/page" className="text-black mx-4 font-fontRegular">
+          <Link href="/PackagesPage/page" className="text-black mx-4 font-fontRegular">
           Packages
         </Link>
       </div>

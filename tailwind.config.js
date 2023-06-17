@@ -21,6 +21,7 @@ module.exports = {
       fontFamily:{
         headingFont: ['Gloock', 'serif'],
         fontRegular: ['Poppins', 'sans-serif'],
+        fontMargarine: ['Margarine', 'cursive'],
       },
     },
   },
