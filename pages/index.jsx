@@ -11,6 +11,8 @@ import Footer from './components/Footer';
 import TextImage from './components/TextImage';
 import Faq from './components/Faq';
 import ImageOverlay from './components/ImageOverlay';
+import Booking from './components/Booking';
+import ImageLayout from './components/ImageLayout';
 
 
 
@@ -45,6 +47,9 @@ export default function Home() {
     </div>
     <div>
       <Faq />
+    </div>
+    <div>
+      <Booking />
     </div>
     <div>
       <Footer />
